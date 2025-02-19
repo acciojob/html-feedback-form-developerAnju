@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+form div{
+	margin-bottom: 15px;
+}
+input{
+	height: 20px;
+	width: 60%;
+}

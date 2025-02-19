@@ -8,6 +8,24 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="post">
+		<div>
+			<label for="name" required>Name</label>
+			<input type="text" id="name" required placeholder="Name" minlength="3" maxlength="50">
+		</div>
+		<div>
+			<label for="portfolio" required>Portfolio</label>
+			<input type="url" id="portfolio" required placeholder="Portfolio">
+		</div>
+		<div>
+			<label for="favColor" required>Favourite Color</label>
+			<input type="color" id="favColor" required placeholder="Favourite Color">
+		</div>
+		<div>
+			<label for="likeness" required>Likeness</label>
+			<input type="range" id="likeness" required min="1" max="100" placeholder="Likeness">
+		</div>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
